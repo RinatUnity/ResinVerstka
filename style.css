@@ -1,0 +1,115 @@
+html{
+    font-size: 10px;
+}
+body{
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgb(107, 109, 109);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(236, 236, 225);
+    width: calc(100% - 20rem);
+    height: calc(100% - 20rem);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: calc(20rem / 2);
+    
+    margin-top: calc(20rem / 2);
+    border-radius: 2rem;
+    display: inline-block;
+    font-size: 0;
+    /* overflow: auto;     */
+}
+.menu{
+    width: calc(100% - 2rem);
+    height: 100px;
+    overflow:auto;
+}
+.el{
+    display: inline-block;
+    height:5rem;
+    margin-top: 3rem;
+    margin-left: 0;
+    line-height: 2; 
+    font-size: 3rem; 
+    text-align: right;
+    vertical-align:middle;
+}
+.container-ml-3{
+    margin-left: 3%;
+}
+.container-ml-50{
+    margin-left: 55%;
+}
+.container-ml-1{
+    margin-left: 1vw;
+}
+.text-font-size{
+    font-size: 3rem;
+    text-align: left;
+     vertical-align:bottom;
+     color: rgb(56, 56, 185);
+
+}
+.text-font-size-bold{
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: left;
+     vertical-align:bottom;
+    color: rgb(56, 56, 185);
+
+}
+.text-font-size-w{
+    font-size: 4rem;
+    text-align: left;
+     vertical-align:bottom;
+     color: rgb(222, 222, 235);
+
+}
+.ell{
+    width: calc(100% - 30px);
+    height:  calc(90% - 50px);
+    margin-left: 15px;
+    margin-top: 10rem ;
+    /* display: inline-block; */
+}
+.el2{
+    display: inline-block;
+    width: calc(45% - 50px);
+    height:  calc(80% - 50px);
+    margin: 2rem;
+    margin: 5rem;
+    margin-left: 5rem;
+    overflow:auto;
+    
+}
+
+.img-size{
+    
+    height: 100%;
+}
+.img-size-2{
+    width:780px;
+    height: 500px;
+    margin-right: 0px;
+   
+    border-radius: 5rem;
+}
+.knopka{
+    margin: 3rem;
+    margin-left: 0;
+    padding: 2rem;
+    width: max-content;
+    height: max-content;
+    background-color: blue;
+    border-radius: 5rem;
+}
+
+
+    
+
+
